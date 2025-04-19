@@ -1,0 +1,73 @@
+{
+    "SLearner": {
+      "params": {
+        "num_layers": 4,
+        "hidden_size": 704,
+        "dropout_rate": 0.345,
+        "learning_rate": 0.000135,
+        "batch_size": 64
+      }
+    },
+    "TLearner": {
+      "treated_params": {
+        "num_layers": 4,
+        "hidden_size": 1024,
+        "dropout_rate": 0.207,
+        "learning_rate": 2e-5,
+        "batch_size": 32
+      },
+      "control_params": {
+        "num_layers": 8,
+        "hidden_size": 3520,
+        "dropout_rate": 0.101,
+        "learning_rate": 0.000108,
+        "batch_size": 256
+      }
+    },
+    "XLearner": {
+        "treated_params": {
+          "num_layers": 4,
+          "hidden_size": 1024,
+          "dropout_rate": 0.207,
+          "learning_rate": 2e-5,
+          "batch_size": 32
+        },
+        "control_params": {
+          "num_layers": 8,
+          "hidden_size": 3520,
+          "dropout_rate": 0.101,
+          "learning_rate": 0.000108,
+          "batch_size": 256
+        }
+      },
+    "XMultiTaskLearner": {
+      "params": {
+        "hidden_size": 2560,
+        "num_tasks":2,
+        "dropout_rate": 0.25,
+        "num_shared_layers": 4,
+        "num_task_specific_layers": 4,
+        "learning_rate": 0.0006,
+        "batch_size": 32,
+        "lambda_reg": 3e-05
+      }
+    },
+    "DCNPDLearner": {
+      "params": {
+        "hidden_size": 2560,
+        "num_tasks":2,
+        "num_shared_layers": 4,
+        "num_task_specific_layers": 4,
+        "learning_rate": 0.00006,
+        "batch_size": 32
+      }
+    },
+    "PropensityModel": {
+      "num_layers": 4,
+      "hidden_size": 3648,
+      "dropout_rate": 0.237,
+      "learning_rate": 0.000231,
+      "batch_size": 128
+    }
+  }
+  
