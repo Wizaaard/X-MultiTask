@@ -64,3 +64,11 @@ python run_testing.py \
 ## Citation
 ---
 Please consider citation if our paper is useful in your research.
+```sh
+@article{tamo2025causal,
+  title={Causal Machine Learning for Surgical Interventions},
+  author={Tamo, J Ben and Chouhan, Nishant S and Nnamdi, Micky C and Yuan, Yining and Chivilkar, Shreya S and Shi, Wenqi and Hwang, Steven W and Brenn, B Randall and Wang, May D},
+  journal={arXiv preprint arXiv:2509.19705},
+  year={2025}
+}
+```
